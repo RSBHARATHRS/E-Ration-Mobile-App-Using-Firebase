@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">E-Ration Mobile App</string>
+    <string name="login">Login</string>
+    <string name="user_id">Smart Card ID</string>
+    <string name="TODO">TODO</string>
+    <string name="change">Change</string>
+    <string name="Change_Password">Change Password</string>
+    <string name="title_activity_home__page">Home Page</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">User name</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+
+    <!--Navigation Drawer Texts-->
+    <string name="menu_home">Home</string>
+    <string name="menu_today_activity">Today\'s Activity</string>
+    <string name="menu_geo_location">Geo Location</string>
+    <string name="menu_Stocks">Stocks</string>
+    <string name="menu_feedback">Feedback/Complains</string>
+    <string name="menu_About_us">About us</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

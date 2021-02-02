@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "298224814356",
+    "firebase_url": "https://ration-management-and-notifica.firebaseio.com",
+    "project_id": "ration-management-and-notifica",
+    "storage_bucket": "ration-management-and-notifica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298224814356:android:42e1a983843b27a884da01",
+        "android_client_info": {
+          "package_name": "com.example.rationmanagementandnotificationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298224814356-qgusv2b7n7k2rb0emdupb37k05pm2md6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rationmanagementandnotificationsystem",
+            "certificate_hash": "4178b5bf051741d85f5f12f1abfd4c6f9fab05d4"
+          }
+        },
+        {
+          "client_id": "298224814356-1hl8nk64dpt8cjd3hlqch7m49o600f7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGJGYA8q5yAnBdqVTtBMcQvx9340wiuvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298224814356-1hl8nk64dpt8cjd3hlqch7m49o600f7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

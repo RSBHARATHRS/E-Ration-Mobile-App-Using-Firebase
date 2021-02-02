@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.rationmanagementandnotificationsystem.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.rationmanagementandnotificationsystem.ui.Todays_activity.GalleryFragment"
+        android:label="@string/menu_today_activity"
+        tools:layout="@layout/fragment_history" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.rationmanagementandnotificationsystem.ui.Map.MapFragment"
+        android:label="@string/menu_geo_location"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.rationmanagementandnotificationsystem.ui.Stocks.ToolsFragment"
+        android:label="@string/menu_Stocks"
+        tools:layout="@layout/fragment_stocks" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.rationmanagementandnotificationsystem.ui.Feedback.ShareFragment"
+        android:label="@string/menu_feedback"
+        tools:layout="@layout/fragment_feedback" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.rationmanagementandnotificationsystem.ui.About.AboutUsFragment"
+        android:label="@string/menu_About_us"
+        tools:layout="@layout/fragment_about" />
+</navigation>

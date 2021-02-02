@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/profile_background"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--TextView
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stocks Availability"
+        android:textSize="35dp"
+        android:gravity="center"/-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="80dp">
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:text="Product Name"
+            android:textSize="26dp"
+            android:id="@+id/product_name"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@color/lightgray" />
+
+        <TextView
+            android:id="@+id/product_stock"
+            android:gravity="center"
+            android:text="Amount"
+            android:textSize="26dp"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <ListView
+        android:id="@+id/stocks_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
