@@ -10,3 +10,11 @@ Timely notification on updates about the stock available in current date.
 4. Complaint forum 
 5. My Profile
 
+## Screen Shots
+
+
+<img src="Images/App_Loading_Screen.jpg" width="310"/>   <img src="Images/Home.jpg" width="310"/>   <img src="Images/Navigation_Drawer.jpg" width="310"/>
+<img src="Images/Profile.jpg" width="310"/>  <img src="Images/Today's_Activities_History.jpg" width="310"/> <img src="Images/Feedback_Form.jpg" width="310"/>
+
+
+
